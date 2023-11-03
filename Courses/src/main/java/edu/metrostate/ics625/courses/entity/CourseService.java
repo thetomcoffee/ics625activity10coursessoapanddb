@@ -29,16 +29,6 @@ public class CourseService {
         return courses;
     }
     
-    /*
-    public List<Course> getCourses() {
-        Iterable<Course> it = repo.findAll();
-        List<Course> courses = new ArrayList<>();
-        it.forEach(courses::add);
-        //or could use it.forEach(s->students.add(s));
-        return courses;
-    }
-    */
-    
     public void remove(long id){
         repo.deleteById(id);
     }

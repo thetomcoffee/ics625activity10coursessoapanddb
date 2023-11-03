@@ -15,7 +15,7 @@ import org.springframework.xml.xsd.XsdSchema;
 
 /**
  *
- * @author cheng
+ * @author Tom Coffee
  */
 @EnableWs
 @Configuration
